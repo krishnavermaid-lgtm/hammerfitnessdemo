@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HAMMER FITNESS is a luxury modern fitness club trusted by 15,000+ clients since December 2022."
+    />
+    <title>HAMMER FITNESS | Built For More</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+    <div class="loader" id="loader" aria-hidden="true">
+      <div class="loader-logo">HAMMER <span>FITNESS</span></div>
+      <div class="loader-bar"></div>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a href="#hero" class="brand">HAMMER <span>FITNESS</span></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#facilities">Facilities</a>
+          <a href="#programs">Programs</a>
+          <a href="#performance">Performance</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="#contact">Join Now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <img class="hero-image parallax" src="assets/hero-collage.jpeg" alt="Wide cinematic HAMMER FITNESS gym interior" />
+        <div class="hero-overlay"></div>
+        <div class="smoke smoke-one"></div>
+        <div class="smoke smoke-two"></div>
+        <div class="hero-content">
+          <p class="section-kicker reveal">Established December 2022</p>
+          <h1 class="reveal">BUILT FOR MORE.</h1>
+          <p class="hero-copy reveal">Luxury fitness crafted for champions since December 2022.</p>
+          <p class="hero-stat reveal">15,000+ transformations. One elite destination.</p>
+          <div class="actions reveal">
+            <a class="btn btn-gold" href="#contact">Join Now</a>
+            <a class="btn btn-ghost" href="#facilities">Explore Facilities</a>
+          </div>
+        </div>
+        <div class="hero-metrics reveal" aria-label="HAMMER FITNESS highlights">
+          <span><strong>15K+</strong> Clients</span>
+          <span><strong>Dec 2022</strong> Established</span>
+          <span><strong>24/7</strong> Elite Access</span>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="split">
+          <figure class="image-frame reveal-left">
+            <img src="assets/strength-training.jpeg" alt="HAMMER FITNESS strength area with free weights" />
+          </figure>
+          <div class="section-copy reveal-right">
+            <p class="section-kicker">The HAMMER Standard</p>
+            <h2>Where elite ambition meets a premium training floor.</h2>
+            <p>
+              HAMMER FITNESS opened in December 2022 for members who expect more from every session. The club pairs
+              cinematic black-and-gold interiors with serious equipment, expert coaching, and a performance-first
+              atmosphere trusted by 15,000+ clients.
+            </p>
+            <div class="mini-grid">
+              <span>Premium Equipment</span>
+              <span>Certified Trainers</span>
+              <span>Luxury Recovery</span>
+              <span>Transformation Focus</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="facilities section" id="facilities">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Facilities</p>
+          <h2>Distinct spaces for every kind of power.</h2>
+        </div>
+        <div class="facility-grid">
+          <article class="media-card wide reveal">
+            <img src="assets/gym-floor.jpeg" alt="HAMMER FITNESS gym floor" />
+            <div><span>01</span><h3>Gym Floor</h3><p>Spacious matte-black training floor with warm architectural lighting.</p></div>
+          </article>
+          <article class="media-card reveal">
+            <img src="assets/strength-training.jpeg" alt="HAMMER FITNESS strength training zone" />
+            <div><span>02</span><h3>Strength Zone</h3><p>Free weights, benches, machines, and cable systems for progressive strength.</p></div>
+          </article>
+          <article class="media-card reveal">
+            <img src="assets/spinning-studio.jpeg" alt="HAMMER FITNESS spinning studio" />
+            <div><span>03</span><h3>Spinning Studio</h3><p>Dedicated cycling room for endurance, rhythm, and high-intensity classes.</p></div>
+          </article>
+          <article class="media-card reveal">
+            <img src="assets/functional-training.jpeg" alt="HAMMER FITNESS functional training turf" />
+            <div><span>04</span><h3>Functional Training</h3><p>Turf, hurdles, ropes, and open movement zones for athletic conditioning.</p></div>
+          </article>
+          <article class="media-card reveal">
+            <img src="assets/luxury-spa.jpeg" alt="HAMMER FITNESS luxury spa recovery room" />
+            <div><span>05</span><h3>Recovery &amp; Spa</h3><p>Warm, quiet recovery atmosphere for reset and rejuvenation.</p></div>
+          </article>
+          <article class="media-card reveal">
+            <img src="assets/locker-room.jpeg" alt="HAMMER FITNESS locker room" />
+            <div><span>06</span><h3>Locker Rooms</h3><p>Clean, polished amenities that keep the experience elevated end to end.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="programs section" id="programs">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Programs</p>
+          <h2>Specialized training, matched to real HAMMER spaces.</h2>
+        </div>
+        <div class="program-strip">
+          <article class="program-card reveal">
+            <img src="assets/trx-training.jpeg" alt="TRX training at HAMMER FITNESS" />
+            <div><p>Suspension</p><h3>TRX Training</h3></div>
+          </article>
+          <article class="program-card reveal">
+            <img src="assets/strength-training.jpeg" alt="Strength and boxing conditioning area at HAMMER FITNESS" />
+            <div><p>Combat</p><h3>Kick Boxing</h3></div>
+          </article>
+          <article class="program-card reveal">
+            <img src="assets/gym-floor.jpeg" alt="Open gym floor for power yoga at HAMMER FITNESS" />
+            <div><p>Mobility</p><h3>Power Yoga</h3></div>
+          </article>
+          <article class="program-card reveal">
+            <img src="assets/functional-training.jpeg" alt="Functional turf area for cross fitness" />
+            <div><p>Athletic</p><h3>Cross Fitness</h3></div>
+          </article>
+          <article class="program-card reveal">
+            <img src="assets/spinning-studio.jpeg" alt="Cardio cycling studio at HAMMER FITNESS" />
+            <div><p>Cardio</p><h3>Spinning Studio</h3></div>
+          </article>
+          <article class="program-card reveal">
+            <img src="assets/luxury-spa.jpeg" alt="Luxury spa recovery at HAMMER FITNESS" />
+            <div><p>Recovery</p><h3>Luxury Spa</h3></div>
+          </article>
+          <article class="program-card reveal">
+            <img src="assets/locker-room.jpeg" alt="Premium amenity lounge area at HAMMER FITNESS" />
+            <div><p>Refuel</p><h3>Fitness Cafe</h3></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="performance section" id="performance">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Transformation</p>
+          <h2>Performance plans with cinematic discipline.</h2>
+        </div>
+        <div class="performance-grid">
+          <article class="performance-card reveal">
+            <img src="assets/trx-training.jpeg" alt="Suspension training performance program" />
+            <span>01</span>
+            <h3>Strength Foundation</h3>
+            <p>Build durable strength with structured coaching and progressive overload.</p>
+          </article>
+          <article class="performance-card reveal">
+            <img src="assets/gym-floor.jpeg" alt="Gym floor transformation program" />
+            <span>02</span>
+            <h3>Body Recomposition</h3>
+            <p>Blend conditioning, lifting, and nutrition guidance for visible transformation.</p>
+          </article>
+          <article class="performance-card reveal">
+            <img src="assets/functional-training.jpeg" alt="Functional training athletic performance program" />
+            <span>03</span>
+            <h3>Athletic Conditioning</h3>
+            <p>Move faster, recover better, and train with purpose across every zone.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials section" id="testimonials">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Client Voices</p>
+          <h2>Trusted by ambitious athletes across India.</h2>
+        </div>
+
+        <div class="testimonials-marquee">
+          <div class="marquee-track marquee-track-slow">
+            <article class="testimonial-card lg float-a">
+              <p>"Amazing transformation journey with elite coaching."</p>
+              <h3>Rahul Mehta</h3>
+              <span>Ludhiana</span>
+            </article>
+            <article class="testimonial-card md float-b">
+              <p>"Best gym atmosphere I have ever experienced."</p>
+              <h3>Karan Arora</h3>
+              <span>Chandigarh</span>
+            </article>
+            <article class="testimonial-card sm float-c">
+              <p>"The equipment and vibe feel truly international."</p>
+              <h3>Simran Kaur</h3>
+              <span>Amritsar</span>
+            </article>
+            <article class="testimonial-card lg float-d">
+              <p>"Luxury fitness experience with visible results."</p>
+              <h3>Arjun Malhotra</h3>
+              <span>Jalandhar</span>
+            </article>
+            <article class="testimonial-card md float-a">
+              <p>"Clean spaces, sharp trainers, and premium energy."</p>
+              <h3>Nikhil Bansal</h3>
+              <span>Delhi</span>
+            </article>
+
+            <article class="testimonial-card lg float-a" aria-hidden="true">
+              <p>"Amazing transformation journey with elite coaching."</p>
+              <h3>Rahul Mehta</h3>
+              <span>Ludhiana</span>
+            </article>
+            <article class="testimonial-card md float-b" aria-hidden="true">
+              <p>"Best gym atmosphere I have ever experienced."</p>
+              <h3>Karan Arora</h3>
+              <span>Chandigarh</span>
+            </article>
+            <article class="testimonial-card sm float-c" aria-hidden="true">
+              <p>"The equipment and vibe feel truly international."</p>
+              <h3>Simran Kaur</h3>
+              <span>Amritsar</span>
+            </article>
+            <article class="testimonial-card lg float-d" aria-hidden="true">
+              <p>"Luxury fitness experience with visible results."</p>
+              <h3>Arjun Malhotra</h3>
+              <span>Jalandhar</span>
+            </article>
+            <article class="testimonial-card md float-a" aria-hidden="true">
+              <p>"Clean spaces, sharp trainers, and premium energy."</p>
+              <h3>Nikhil Bansal</h3>
+              <span>Delhi</span>
+            </article>
+          </div>
+
+          <div class="marquee-track marquee-track-medium">
+            <article class="testimonial-card sm float-c">
+              <p>"Every workout here feels focused and world-class."</p>
+              <h3>Priya Sharma</h3>
+              <span>Jaipur</span>
+            </article>
+            <article class="testimonial-card lg float-d">
+              <p>"Stylish interiors and serious training in one place."</p>
+              <h3>Devansh Khanna</h3>
+              <span>Mohali</span>
+            </article>
+            <article class="testimonial-card md float-b">
+              <p>"My strength and confidence improved month by month."</p>
+              <h3>Ananya Kapoor</h3>
+              <span>Mumbai</span>
+            </article>
+            <article class="testimonial-card sm float-a">
+              <p>"Top-tier machines and trainers who actually care."</p>
+              <h3>Harshit Verma</h3>
+              <span>Noida</span>
+            </article>
+            <article class="testimonial-card lg float-c">
+              <p>"HAMMER delivers premium coaching with disciplined structure."</p>
+              <h3>Ishita Singh</h3>
+              <span>Pune</span>
+            </article>
+
+            <article class="testimonial-card sm float-c" aria-hidden="true">
+              <p>"Every workout here feels focused and world-class."</p>
+              <h3>Priya Sharma</h3>
+              <span>Jaipur</span>
+            </article>
+            <article class="testimonial-card lg float-d" aria-hidden="true">
+              <p>"Stylish interiors and serious training in one place."</p>
+              <h3>Devansh Khanna</h3>
+              <span>Mohali</span>
+            </article>
+            <article class="testimonial-card md float-b" aria-hidden="true">
+              <p>"My strength and confidence improved month by month."</p>
+              <h3>Ananya Kapoor</h3>
+              <span>Mumbai</span>
+            </article>
+            <article class="testimonial-card sm float-a" aria-hidden="true">
+              <p>"Top-tier machines and trainers who actually care."</p>
+              <h3>Harshit Verma</h3>
+              <span>Noida</span>
+            </article>
+            <article class="testimonial-card lg float-c" aria-hidden="true">
+              <p>"HAMMER delivers premium coaching with disciplined structure."</p>
+              <h3>Ishita Singh</h3>
+              <span>Pune</span>
+            </article>
+          </div>
+
+          <div class="marquee-track marquee-track-fast">
+            <article class="testimonial-card md float-b">
+              <p>"Recovery facilities and training quality are exceptional."</p>
+              <h3>Saurabh Jain</h3>
+              <span>Gurugram</span>
+            </article>
+            <article class="testimonial-card sm float-d">
+              <p>"A luxury gym that still feels performance-driven."</p>
+              <h3>Neha Chawla</h3>
+              <span>Ahmedabad</span>
+            </article>
+            <article class="testimonial-card lg float-a">
+              <p>"Professional staff made my transformation sustainable."</p>
+              <h3>Vikram Sethi</h3>
+              <span>Lucknow</span>
+            </article>
+            <article class="testimonial-card md float-c">
+              <p>"From ambience to coaching, everything feels premium."</p>
+              <h3>Meher Oberoi</h3>
+              <span>Patiala</span>
+            </article>
+            <article class="testimonial-card sm float-b">
+              <p>"The gold-standard gym experience in this region."</p>
+              <h3>Raghav Bedi</h3>
+              <span>Hyderabad</span>
+            </article>
+
+            <article class="testimonial-card md float-b" aria-hidden="true">
+              <p>"Recovery facilities and training quality are exceptional."</p>
+              <h3>Saurabh Jain</h3>
+              <span>Gurugram</span>
+            </article>
+            <article class="testimonial-card sm float-d" aria-hidden="true">
+              <p>"A luxury gym that still feels performance-driven."</p>
+              <h3>Neha Chawla</h3>
+              <span>Ahmedabad</span>
+            </article>
+            <article class="testimonial-card lg float-a" aria-hidden="true">
+              <p>"Professional staff made my transformation sustainable."</p>
+              <h3>Vikram Sethi</h3>
+              <span>Lucknow</span>
+            </article>
+            <article class="testimonial-card md float-c" aria-hidden="true">
+              <p>"From ambience to coaching, everything feels premium."</p>
+              <h3>Meher Oberoi</h3>
+              <span>Patiala</span>
+            </article>
+            <article class="testimonial-card sm float-b" aria-hidden="true">
+              <p>"The gold-standard gym experience in this region."</p>
+              <h3>Raghav Bedi</h3>
+              <span>Hyderabad</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat reveal"><strong data-count="15000">0</strong><span>Clients</span></div>
+        <div class="stat reveal"><strong>Dec 2022</strong><span>Established</span></div>
+        <div class="stat reveal"><strong data-count="100">0</strong><span>Premium Machines</span></div>
+        <div class="stat reveal"><strong>Elite</strong><span>Trainers</span></div>
+        <div class="stat reveal"><strong>24/7</strong><span>Access</span></div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Gallery</p>
+          <h2>All uploaded HAMMER visuals, each shown once.</h2>
+        </div>
+        <div class="masonry">
+          <img class="tall reveal" src="assets/hero-collage.jpeg" alt="Cinematic wide gym collage" />
+          <img class="reveal" src="assets/locker-room.jpeg" alt="HAMMER FITNESS locker room" />
+          <img class="reveal" src="assets/trx-training.jpeg" alt="HAMMER FITNESS TRX training" />
+          <img class="wide reveal" src="assets/strength-training.jpeg" alt="HAMMER FITNESS strength training" />
+          <img class="reveal" src="assets/gym-floor.jpeg" alt="HAMMER FITNESS gym floor" />
+          <img class="tall reveal" src="assets/spinning-studio.jpeg" alt="HAMMER FITNESS spinning studio" />
+          <img class="reveal" src="assets/functional-training.jpeg" alt="HAMMER FITNESS functional training" />
+          <img class="wide reveal" src="assets/luxury-spa.jpeg" alt="HAMMER FITNESS luxury spa" />
+        </div>
+      </section>
+
+      <section class="final-cta" id="contact">
+        <img src="assets/luxury-spa.jpeg" alt="Luxury HAMMER FITNESS recovery room" />
+        <div class="final-copy reveal">
+          <p class="section-kicker">Start Today</p>
+          <h2>YOUR STRONGEST VERSION STARTS HERE.</h2>
+          <p>Train in luxury. Perform beyond limits.</p>
+          <div class="actions">
+            <a class="btn btn-gold" href="tel:+919876543210">Start Today</a>
+            <a class="btn btn-ghost" href="mailto:info@hammerfitness.in">Book a Tour</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <a href="#hero" class="brand">HAMMER <span>FITNESS</span></a>
+        <p>Amritsar's premium fitness destination since December 2022.</p>
+      </div>
+      <div><h3>Contact</h3><p>info@hammerfitness.in</p><p>+91 98765 43210</p></div>
+      <div><h3>Hours</h3><p>Open 24/7</p><p>Trainer desk: 6 AM - 10 PM</p></div>
+      <div><h3>Social</h3><p>Instagram / Facebook / YouTube</p></div>
+      <p class="copyright">&copy; 2026 HAMMER FITNESS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
